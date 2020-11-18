@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		464EA8ED2565C742000983E0 /* InetBleLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 464EA8EB2565C742000983E0 /* InetBleLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		464EA8F62565C765000983E0 /* InetBleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464EA8F52565C765000983E0 /* InetBleSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		464EA8E82565C742000983E0 /* InetBleLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InetBleLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		464EA8EB2565C742000983E0 /* InetBleLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InetBleLibrary.h; sourceTree = "<group>"; };
 		464EA8EC2565C742000983E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		464EA8F52565C765000983E0 /* InetBleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InetBleSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,7 +21,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464EA8F62565C765000983E0 /* InetBleSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,19 +46,10 @@
 		464EA8EA2565C742000983E0 /* InetBleLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				464EA8F42565C765000983E0 /* Frameworks */,
 				464EA8EB2565C742000983E0 /* InetBleLibrary.h */,
 				464EA8EC2565C742000983E0 /* Info.plist */,
 			);
 			path = InetBleLibrary;
-			sourceTree = "<group>";
-		};
-		464EA8F42565C765000983E0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				464EA8F52565C765000983E0 /* InetBleSDK.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
